@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+var header = $('body');
+
+var backgrounds = new Array(
+    'url(../pictures/download.png)'
+  , 'url(../pictures/yeet.png)'
+  , 'url(http://placekitten.com/300)'
+  , 'url(http://placekitten.com/400)'
+);
+
+var current = 0;
+
+function nextBackground() {
+    current++;
+    current = current % backgrounds.length;
+    header.css('background-image', backgrounds[current]);
+}
+setInterval(nextBackground, 10000);
+
+header.css('background-image', backgrounds[0]);
+});
+</script>
+</head>
+<body>
+<header></header>
+</body>
+</html>
