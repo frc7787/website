@@ -255,28 +255,44 @@ div.desc {
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url(../pictures/download.png);
+  background-image: url(../squat.jpg);
 }
 
 .slideshow li:nth-child(2) span {
-  background-image: url(../pictures/yeet.png);
+  background-image: url(../floor.jpg);
   -webkit-animation-delay: 7s;
   -moz-animation-delay: 7s;
   animation-delay: 7s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url(../pictures/kms.png);
+  background-image: url(../stand.jpg);
   -webkit-animation-delay: 14s;
   -moz-animation-delay: 14s;
   animation-delay: 14s;
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url(../pictures/yote.png);
+  background-image: url(../standing-around.jpg);
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   animation-delay: 20s;
+}
+
+
+.slideshow li:nth-child(5) span {
+  background-image: url(../driver.jpg);
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  animation-delay: 24s;
+}
+
+
+.slideshow li:nth-child(6) span {
+  background-image: url(../hackerman.jpg);
+  -webkit-animation-delay: 30s;
+  -moz-animation-delay: 30s;
+  animation-delay: 30s;
 }
 
 @-webkit-keyframes imageAnimation {
